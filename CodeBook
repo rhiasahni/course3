@@ -1,0 +1,36 @@
+Code Book:
+
+Subject:
+    
+    The Subject is a number that identifies a individual of a a group of 30 volunteers within an age bracket of 19-48 years.
+    
+Activity Name:
+
+    Text Description of the activity that the subject is performing while the measures are recorded
+
+Activity Label:
+
+    An integer from 1 to 6 that also identify one of the six activities the subject is performing
+
+
+The rest variables are the mean value of all measurement performed by the subject. The name of variable, if break down by component denotes:
+
+prefix:
+  t- : Measurement in time domain
+  f- : Measurement in frequency domain
+  
+Suffix:
+  X,Y,Z: 3-axial signals in the X,Y and Z direction
+  
+Summarizing Method:
+  mean() - Mean value
+  std() - Standard deviation
+  meanFreq() - Weighted average of the frequency components to obtain a mean frequency
+  
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+  gravityMean
+  tBodyAccMean
+  tBodyAccJerkMean
+  tBodyGyroMean
+  tBodyGyroJerkMean
